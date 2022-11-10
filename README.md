@@ -1,6 +1,6 @@
-# simple-react-app - Launches a bootstrapped React App in a Docker container
+# simple-react-app - Containerized sample react app automatically deployed to AWS EB
 
-> ## Using Terraform
+> ## Launch locally using Terraform
 >
 > *This method uses Terraform to execute the provided main.tf file in order to launch the application.*
 
@@ -23,7 +23,7 @@ The `--auto-approve` flag eliminates the need to confirm the build.  Without it,
 
 ---
 
-> ## Using Docker Compose
+> ## Launch locally using Docker Compose
 >
 > *This method uses the provided docker-compose yaml file (which uses the provided Dockerfile) to launch the application.*
 
